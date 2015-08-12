@@ -1,0 +1,39 @@
+**java library in linux is plated at /usr/lib/jvm/java_version{jdk}
+
+To configure network in ubuntu
+Try restarting the network-manager
+command:- **sudo service network-manager restart**
+Hope this might help.
+
+change default java
+sudo update-alternatives --config java
+
+bin/hadoop dfsadmin -safemode leave
+
+tar xzf hadoop file...
+order is important
+x:-extract and get
+z:-gzip{uncompression of file}
+f:-looks for file
+
+ 
+
+--wget http://apache.osuosl.org/hive/hive-0.12.0/hive-0.12.0.tar.gz
+--tar xvzf hive-0.12.0.tar.gz
+--cd /usr/local
+--mkdir hive
+--mv /home/arjun/hive-0.12.0/ /usr/local/hive
+--export HIVE_HOME=/usr/local/hive/hive-0.12.0
+--export PATH=/home/arjun/bin:	$HIVE_HOME/bin:$PATH
+--hive
+
+
+Create new user in ubuntu :--
+sudo useradd -s /bin/bash -m user_name
+sudo passwd pentaho
+
+
+start mysql server :--
+sudo /etc/init.d/mysql start
+
+
